@@ -12,6 +12,9 @@ class SerialExperimentsRecon:
         self.root.resizable(False, False)
         self.root.configure(bg="#000000")
         
+        # Remove a barra de título (borderless)
+        self.root.overrideredirect(True)
+        
         # Fontes monoespaçadas
         try:
             self.font_title = ("Courier New", 16, "bold")
@@ -60,6 +63,10 @@ class SerialExperimentsRecon:
         self.input_y = 0  # Será definido no draw_interface
         self.confirmation_symbol_id = None  # Símbolo de confirmação
         
+        # Variáveis para arrastar a janela
+        self.drag_x = 0
+        self.drag_y = 0
+        
         # Carrega e exibe tudo
         self.load_random_gif()
         self.draw_scanlines()
@@ -69,9 +76,16 @@ class SerialExperimentsRecon:
         # Bind de teclado
         self.root.bind("<Key>", self.on_key_press)
         
+        # Bind para fechar com ESC
+        self.root.bind("<Escape>", lambda e: self.root.quit())
+        
         # Bind de mouse para cliques
         self.canvas.bind("<Button-1>", self.on_canvas_click)
         self.canvas.bind("<Motion>", self.on_mouse_move)
+        
+        # Bind para arrastar a janela
+        self.canvas.bind("<ButtonPress-1>", self.start_drag)
+        self.canvas.bind("<B1-Motion>", self.on_drag)
     
     def load_random_gif(self):
         """Carrega GIF aleatório da pasta assets/ sem distorção"""
@@ -331,6 +345,20 @@ class SerialExperimentsRecon:
         )
         if not mouse_over_button:
             self.canvas.config(cursor="")
+    
+    def start_drag(self, event):
+        """Inicia o arrasto da janela"""
+        self.drag_x = event.x
+        self.drag_y = event.y
+    
+    def on_drag(self, event):
+        """Arrasta a janela"""
+        # Calcula nova posição
+        x = self.root.winfo_x() + (event.x - self.drag_x)
+        y = self.root.winfo_y() + (event.y - self.drag_y)
+        
+        # Move a janela
+        self.root.geometry(f"+{x}+{y}")
     
     def on_canvas_click(self, event):
         """Detecta cliques nos botões"""
