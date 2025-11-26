@@ -229,5 +229,5 @@ MIT License - Feel free to use in CTFs and modify as needed!
 *Present day, present time... ハハハハ*
 
 <div align="center">
-  <img src="modules/assets/lain_040.gif" alt="Separator gif" width="500">
+  <img src="modules/assets/lain_040.gif" alt="Separator gif" width="300">
 </div>
