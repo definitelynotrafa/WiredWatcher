@@ -8,6 +8,12 @@ A sleek, terminal-style GUI tool designed for initial reconnaissance in CTF comp
 ![Platform](https://img.shields.io/badge/Platform-Linux-lightgrey.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
+<div align="center">
+  <img src="assets/preview.gif" alt="WiredWatcher Interface" width="400">
+  <p><i>Main interfaces</i></p>
+</div>
+
+
 ## Features
 
 - **Automated Reconnaissance**: Runs Nmap and directory fuzzing in one click
