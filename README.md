@@ -100,15 +100,12 @@ python main.py
 pip install pyinstaller
 
 # Build
-pyinstaller
---onefile ^
---noconsole ^
---icon=icon.ico ^
---add-data "config.json;." ^
---add-data "modules;modules" ^
+python3 -m PyInstaller --onefile --noconsole \
+--add-data "config.json:." \
+--add-data "modules:modules" \
 wiredwatcher.py
 
-# Executable will be in dist/
+# Executable will be in dist/ | you just need to chmod +x it
 ```
 
 <div align="center">
