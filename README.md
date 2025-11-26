@@ -40,6 +40,27 @@ pip install -r requirements.txt
 **Required:**
 - Python 3.8+
 - Pillow (for GIF animations)
+- tkinter (install via your OS package manager):
+  **Linux:**
+  - Debian / Ubuntu / Linux Mint (apt):
+    ```bash
+    sudo apt update
+    sudo apt install python3-tk
+    ```
+  - Fedora / RHEL / AlmaLinux / OracleLinux (dnf):
+    ```bash
+    sudo dnf install python3-tkinter
+    ```
+  - openSUSE (zypper):
+    ```bash
+    sudo zypper install python3-tk
+    ```
+  - Arch Linux / Manjaro (pacman):
+    ```bash
+    sudo pacman -S tk
+    ```
+  **Windows:**
+  - Tkinter is included with the Python installer; no additional installation needed.
 
 ### External Tools
 Make sure these are installed and in your PATH:
