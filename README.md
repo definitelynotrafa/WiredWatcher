@@ -105,9 +105,26 @@ pip install pyinstaller
 python3 -m PyInstaller --onefile --noconsole \
 --add-data "config.json:." \
 --add-data "modules:modules" \
+--hidden-import=PIL._tkinter_finder \
 wiredwatcher.py
 
 # Executable will be in dist/ | you just need to chmod +x it
+
+# To use it as an app you need to create a shortcut
+
+nano ~/.local/share/applications/wiredwatcher.desktop
+
+# Then add this modifying it your info
+
+[Desktop Entry]
+Name=wired://watcher
+Comment=Simple reconnaissance tool for CTF challenges
+Exec=executable_location
+Icon=icon_location
+Terminal=false
+Type=Application
+Categories=Utility;
+
 ```
 
 <div align="center">
