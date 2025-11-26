@@ -123,10 +123,12 @@ Contributions and suggestions are welcome!
 
 ```
 wired-watcher/
-├── main.py                 # Entry point
 ├── config.json             # User configuration
 ├── requirements.txt        # Python dependencies
 ├── icon.ico                # Icon in case you want to build it yourself
+├── wiredwatcher.py         # Entry point
+├── wiredwatcher.exe        # Windows compiled app
+├── wiredwatcher            # Linux compiled app
 └── modules/
     ├── animations.py      # CRT effects
     ├── config.py          # App constants
