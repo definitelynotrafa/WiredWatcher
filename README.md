@@ -67,6 +67,11 @@ Make sure these are installed and in your PATH:
 - [Nmap](https://nmap.org/)
 - [Gobuster](https://github.com/OJ/gobuster) or [FFUF](https://github.com/ffuf/ffuf)
 
+
+<div align="center">
+  <img src="modules/assets/lain_018.gif" alt="Separator gif" width="200">
+</div>
+
 ## Installation
 
 ### Releases
