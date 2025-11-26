@@ -81,6 +81,8 @@ Make sure these are installed and in your PATH:
 
 Pre-built executables are available in the [Releases](../../releases) section. Download the latest version for your platform and run directly.
 
+### Or you can download it and run "wiredwatcher.py" with python :P
+
 ### From Source
 ```bash
 # Clone or download the repository
