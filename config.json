@@ -1,8 +1,0 @@
-{
-    "nmap": "nmap -Pn -p- -sV -sC -O -T4",
-    "wordlist": "~/wordlists",
-    "fuzzer": "gobuster",
-    "gobuster": "gobuster dir -u target -w wordlist.txt -x php,txt,html,js,bak,old,zip,tar,conf,json,log",
-    "ffuf": "",
-    "target": ""
-}
