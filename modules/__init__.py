@@ -1,3 +1,0 @@
-"""
-Wired Recon - Modules package
-"""
