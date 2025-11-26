@@ -1,4 +1,7 @@
-# wired://watcher
+<h1>
+wired://watcher
+<img src="modules/assets/lain_027.gif" alt="Tittle gif" width="100"/>
+</h1>
 
 > *Simple reconnaissance tool for CTF challenges*
 
@@ -146,7 +149,7 @@ Settings are stored in `config.json`:
 - `wordlist.txt` - replaced with your wordlist path
 
 <div align="center">
-  <img src="modules/assets/lain_027.gif" alt="Separator gif" width="200">
+  <img src="modules/assets/lain_025.gif" alt="Separator gif" width="200">
 </div>
 
 ## Interface
