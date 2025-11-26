@@ -26,6 +26,10 @@ A sleek, terminal-style GUI tool designed for initial reconnaissance in CTF comp
 - **Nmap**: Port scanning and service enumeration
 - **Gobuster/FFUF**: Directory and file fuzzing with custom wordlists
 
+<div align="center">
+  <img src="modules/assets/lain_057.gif" alt="Separator gif" width="200">
+</div>
+
 ## Requirements
 
 ### Python Dependencies
@@ -61,6 +65,7 @@ python main.py
 ```
 
 ### Build Executable (Optional)
+
 ```bash
 # Install PyInstaller
 pip install pyinstaller
@@ -76,6 +81,10 @@ main.py
 
 # Executable will be in dist/
 ```
+
+<div align="center">
+  <img src="modules/assets/lain_051.gif" alt="Separator gif" width="200">
+</div>
 
 ## Usage
 
@@ -110,6 +119,10 @@ Settings are stored in `config.json`:
 - `target` - automatically replaced with your configured target
 - `wordlist.txt` - replaced with your wordlist path
 
+<div align="center">
+  <img src="modules/assets/lain_027.gif" alt="Separator gif" width="200">
+</div>
+
 ## Interface
 
 - **Animated GIFs**: Random Lain gif on the top of the screen - Thanks to [Fauux](https://fauux.neocities.org/)
@@ -127,6 +140,10 @@ While wired://watcher currently focuses on Nmap and fuzzing, future versions wil
 - **Report Generation** (HTML/PDF exports)
 
 Contributions and suggestions are welcome!
+
+<div align="center">
+  <img src="modules/assets/lain_048.gif" alt="Separator gif" width="200">
+</div>
 
 ## Project Structure
 
@@ -156,6 +173,10 @@ wired-watcher/
 - **Enter** - Confirm target input
 - **Click** - Select menu options
 
+<div align="center">
+  <img src="modules/assets/lain_043.gif" alt="Separator gif" width="200">
+</div>
+
 ## Contributing
 
 Ideas for improvements:
@@ -180,3 +201,7 @@ MIT License - Feel free to use in CTFs and modify as needed!
 **Note**: This tool is for authorized security testing and CTF competitions only. Always ensure you have permission before scanning targets.
 
 *Present day, present time... ハハハハ*
+
+<div align="center">
+  <img src="modules/assets/lain_040.gif" alt="Separator gif" width="200">
+</div>
