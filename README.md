@@ -39,6 +39,10 @@ Make sure these are installed and in your PATH:
 
 ## Installation
 
+### Releases
+
+Pre-built executables are available in the [Releases](../../releases) section. Download the latest version for your platform and run directly.
+
 ### From Source
 ```bash
 # Clone or download the repository
@@ -127,8 +131,6 @@ wired-watcher/
 ├── requirements.txt        # Python dependencies
 ├── icon.ico                # Icon in case you want to build it yourself
 ├── wiredwatcher.py         # Entry point
-├── wiredwatcher.exe        # Windows compiled app
-├── wiredwatcher            # Linux compiled app
 └── modules/
     ├── animations.py      # CRT effects
     ├── config.py          # App constants
