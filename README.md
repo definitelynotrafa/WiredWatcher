@@ -69,7 +69,7 @@ Make sure these are installed and in your PATH:
 
 
 <div align="center">
-  <img src="modules/assets/lain_018.gif" alt="Separator gif" width="200">
+  <img src="modules/assets/lain_018.gif" alt="Separator gif" width="50">
 </div>
 
 ## Installation
