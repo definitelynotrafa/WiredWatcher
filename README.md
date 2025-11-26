@@ -106,7 +106,7 @@ pyinstaller
 --icon=icon.ico ^
 --add-data "config.json;." ^
 --add-data "modules;modules" ^
-main.py
+wiredwatcher.py
 
 # Executable will be in dist/
 ```
