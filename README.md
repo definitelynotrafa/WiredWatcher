@@ -125,6 +125,10 @@ Terminal=false
 Type=Application
 Categories=Utility;
 
+# Save it and turn it into an executable
+
+chmod +x ~/.local/share/applications/wiredwatcher.desktop
+
 ```
 
 <div align="center">
