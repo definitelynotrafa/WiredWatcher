@@ -9,8 +9,7 @@ A sleek, terminal-style GUI tool designed for initial reconnaissance in CTF comp
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
 <div align="center">
-  <img src="assets/preview.gif" alt="WiredWatcher Interface" width="800">
-  <p><i>Main interfaces</i></p>
+  <img src="assets/preview.gif" alt="WiredWatcher Interface" width="700">
 </div>
 
 
