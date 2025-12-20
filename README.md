@@ -114,7 +114,7 @@ wiredwatcher.py
 
 nano ~/.local/share/applications/wiredwatcher.desktop
 
-# Then add this modifying it your info
+# Then add this modifying it with your info
 
 [Desktop Entry]
 Name=wired://watcher
